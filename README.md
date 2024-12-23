@@ -1,7 +1,5 @@
 # AESC Assignment
 
-This project is a simple web application that displays a list of candidates with their details (Name, Skills, and Years of Experience). The data is fetched from a backend API built with Node.js and Express. The frontend is built with React, and the app includes features like searching and sorting candidates based on their years of experience.
-
 ## Task
 - Build a Candidate List Viewer:
   1. Use React to create a page that displays a list of candidates with mock data fetched from an API.
@@ -40,11 +38,13 @@ This project is a simple web application that displays a list of candidates with
 
 2. **Install Backend Dependencies**
 
+   ```bash
    cd backend
    npm install
 
 3. **Install Frontend Dependencies**
 
+   ```bash
    cd frontend
    npm install
 
@@ -52,6 +52,7 @@ This project is a simple web application that displays a list of candidates with
 
    In the backend directory, run:
 
+   ```bash
    npm start
 
    This will start the Express backend server on http://localhost:5001
@@ -59,7 +60,8 @@ This project is a simple web application that displays a list of candidates with
 5. **Start the Frontend Application**
 
    In the frontend directory, run:
-   
+
+   ```bash
    npm start
 
    This will start the React frontend development server, and it will open your app at http://localhost:3000
