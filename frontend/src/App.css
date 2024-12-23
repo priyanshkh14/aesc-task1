@@ -1,0 +1,44 @@
+.App {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .search-bar input {
+    padding: 8px;
+    margin: 10px;
+    width: 300px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    margin: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .candidate-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+  }
+  
+  .candidate-table th, .candidate-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .candidate-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .candidate-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
