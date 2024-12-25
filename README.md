@@ -35,18 +35,21 @@
 
    ```bash
    git clone https://github.com/priyanshkh14/aesc-task1.git
+   ```
 
 2. **Install Backend Dependencies**
 
    ```bash
    cd backend
    npm install
+   ```
 
 3. **Install Frontend Dependencies**
 
    ```bash
    cd frontend
    npm install
+   ```
 
 4. **Start the Backend Server**
 
@@ -54,6 +57,7 @@
 
    ```bash
    npm start
+   ```
 
    This will start the Express backend server on http://localhost:5001
 
@@ -63,5 +67,6 @@
 
    ```bash
    npm start
+   ```
 
    This will start the React frontend development server, and it will open your app at http://localhost:3000
